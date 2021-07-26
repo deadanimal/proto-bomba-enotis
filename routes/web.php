@@ -13,12 +13,44 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/dashboard', function () {
+    return view('pages.dashboard');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
+Route::get('/notis-baru', function () {
+    return view('pages.notisbaru');
+});
 
-require __DIR__.'/auth.php';
+Route::get('/papar-borang', function () {
+    return view('pages.paparborang');
+});
+
+Route::get('/status-notis', function () {
+    return view('pages.statusnotis');
+});
+
+Route::get('/premis', function () {
+    return view('pages.senaraipremis');
+});
+
+Route::get('/jadual', function () {
+    return view('pages.jadual');
+});
+
+Route::get('/panduan', function () {
+    return view('pages.panduan');
+});
+
+Route::get('/profil', function () {
+    return view('pages.profil');
+});
+
+Route::get('/tetapan', function () {
+    return view('pages.tetapan');
+});
+
+// Route::get('/dashboard', function () {
+//     return view('dashboard');
+// })->middleware(['auth'])->name('dashboard');
+
+// require __DIR__.'/auth.php';
