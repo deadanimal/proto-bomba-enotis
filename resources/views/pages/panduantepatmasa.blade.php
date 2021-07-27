@@ -10,12 +10,12 @@
                 <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
                     <li class="breadcrumb-item text-sm">
                         <a class="opacity-3 text-dark" href="javascript:;">
-                            <i class="fas fa-business-time me-sm-1 text-dark"></i>
+                            <i class="fas fa-user-circle me-sm-1 text-dark"></i>
                         </a>
                     </li>
-                    <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">Papar Borang</a></li>
+                    <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">Panduan Pengguna</a></li>
                 </ol>
-                <h6 class="font-weight-bolder mb-0">Papar Borang</h6>
+                <h6 class="font-weight-bolder mb-0">Panduan Pengguna</h6>
             </nav>
             <div class="sidenav-toggler sidenav-toggler-inner d-xl-block d-none ">
                 <a href="javascript:;" class="nav-link text-body p-0">
@@ -134,13 +134,22 @@
     <!-- End Navbar -->
     <div class="container-fluid py-4">
         <div class="row">
-            <div class="col-xl-12 mb-4">
-                <img src="../../assets/img/borangA.png" alt="" style="height: 350px;">
+            <div class="col-xl-12">
+                <div class="row">
+                    <div class="col-6">
+                        <a href="/panduan-penetapan-masa" class="btn btn-info w-100" type="button">Penetapan Masa</a>
+                    </div>
+                    <div class="col-6">
+                        <a href="/panduan-akta" class="btn btn-default w-100" type="button">Senarai akta</a>
+                    </div>
+                </div>
             </div>
-
-            <a href="/dashboard" class="btn btn-success w-100">
-                SIMPAN
-            </a>
+            <div class="col-xl-12">
+                <!-- <embed src="../../assets/file/panduan_pengguna_akta.pdf" width="auto" height ="350px" /> -->
+                <img src="../../assets/img/panduan_pengguna_tempoh_notis_1.png" class="mb-2" alt="" style="height: 400px;">
+                <br>
+                <img src="../../assets/img/panduan_pengguna_tempoh_notis_2.png" alt="" style="height: 230px;">
+            </div>
         </div>
         <footer class="footer pt-3  ">
             <div class="container-fluid">

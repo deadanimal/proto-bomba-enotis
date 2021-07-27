@@ -10,12 +10,12 @@
                 <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
                     <li class="breadcrumb-item text-sm">
                         <a class="opacity-3 text-dark" href="javascript:;">
-                            <i class="fas fa-business-time me-sm-1 text-dark"></i>
+                            <i class="fas fa-calendar-alt me-sm-1 text-dark"></i>
                         </a>
                     </li>
-                    <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">Papar Borang</a></li>
+                    <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">Jadual Pemeriksaan</a></li>
                 </ol>
-                <h6 class="font-weight-bolder mb-0">Papar Borang</h6>
+                <h6 class="font-weight-bolder mb-0">Jadual Pemeriksaan</h6>
             </nav>
             <div class="sidenav-toggler sidenav-toggler-inner d-xl-block d-none ">
                 <a href="javascript:;" class="nav-link text-body p-0">
@@ -134,13 +134,54 @@
     <!-- End Navbar -->
     <div class="container-fluid py-4">
         <div class="row">
-            <div class="col-xl-12 mb-4">
-                <img src="../../assets/img/borangA.png" alt="" style="height: 350px;">
+            <div class="col-xl-12">
+                <div class="row">
+                    <div class="col-6">
+                        <a href="/jadual-mingguan" class="btn btn-info w-100" type="button">Mingguan</a>
+                    </div>
+                    <div class="col-6">
+                        <a href="/jadual-bulanan" class="btn btn-default w-100" type="button">Bulanan</a>
+                    </div>
+                </div>
             </div>
-
-            <a href="/dashboard" class="btn btn-success w-100">
-                SIMPAN
-            </a>
+            <div class="col-xl-12">
+                <div class="card">
+                    <div class="card-header pb-0">
+                        <h6>Timeline with dotted line</h6>
+                    </div>
+                    <div class="card-body p-3">
+                        <div class="timeline timeline-one-side" data-timeline-axis-style="dotted">
+                            <div class="timeline-block mb-3">
+                                <span class="timeline-step">
+                                    <i class="fas fa-circle text-success text-gradient"></i>
+                                </span>
+                                <div class="timeline-content">
+                                    <h6 class="text-dark text-sm font-weight-bold mb-0">Pipeline Network Sdn Bhd</h6>
+                                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">22 Ogos 2021</p>
+                                </div>
+                            </div>
+                            <div class="timeline-block mb-3">
+                                <span class="timeline-step">
+                                    <i class="fas fa-circle text-danger text-gradient"></i>
+                                </span>
+                                <div class="timeline-content">
+                                    <h6 class="text-dark text-sm font-weight-bold mb-0">Akal Budi Resources</h6>
+                                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">23 Ogos 2021</p>
+                                </div>
+                            </div>
+                            <div class="timeline-block mb-3">
+                                <span class="timeline-step">
+                                    <i class="fas fa-circle text-info text-gradient"></i>
+                                </span>
+                                <div class="timeline-content">
+                                    <h6 class="text-dark text-sm font-weight-bold mb-0">Coway (M) Sdn Bhd</h6>
+                                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">25 Ogos 2021</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <footer class="footer pt-3  ">
             <div class="container-fluid">

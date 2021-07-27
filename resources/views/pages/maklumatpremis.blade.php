@@ -10,12 +10,12 @@
                 <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
                     <li class="breadcrumb-item text-sm">
                         <a class="opacity-3 text-dark" href="javascript:;">
-                            <i class="fas fa-business-time me-sm-1 text-dark"></i>
+                            <i class="fas fa-id-badge me-sm-1 text-dark"></i>
                         </a>
                     </li>
-                    <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">Papar Borang</a></li>
+                    <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">Maklumat Premis</a></li>
                 </ol>
-                <h6 class="font-weight-bolder mb-0">Papar Borang</h6>
+                <h6 class="font-weight-bolder mb-0">Maklumat Premis</h6>
             </nav>
             <div class="sidenav-toggler sidenav-toggler-inner d-xl-block d-none ">
                 <a href="javascript:;" class="nav-link text-body p-0">
@@ -134,13 +134,52 @@
     <!-- End Navbar -->
     <div class="container-fluid py-4">
         <div class="row">
-            <div class="col-xl-12 mb-4">
-                <img src="../../assets/img/borangA.png" alt="" style="height: 350px;">
+            <div class="col-xl-12">
+                <div class="form-group">
+                    <label class="form-control-label">Nama Premis</label>
+                    <input class="form-control" type="text" value="AKAL BUDI RESOURCES">
+                </div>
             </div>
-
-            <a href="/dashboard" class="btn btn-success w-100">
-                SIMPAN
-            </a>
+            <div class="col-xl-12">
+                <div class="form-group">
+                    <label class="form-control-label">Alamat</label>
+                    <textarea class="form-control" rows="3">Lot 367, Jalan Aminuddin Baki, Taman Tun Dr. Ismail, 06000 Kuala Lumpur</textarea>
+                </div>
+            </div>
+            <div class="col-xl-12">
+                <div class="form-group">
+                    <label class="form-control-label">Jenis Perniagaan</label>
+                    <select class="form-control mb-3">
+                        <option selected value="1">Konsultan Pembinaan</option>
+                        <option value="2">Pembungkusan & Percetakan</option>
+                        <option value="3">Elektrik & Elektronik</option>
+                        <option value="4">Produk Kimia</option>
+                        <option value="5">Hotel & Penginapan</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-xl-12">
+                <div class="form-group">
+                    <label class="form-control-label">Pemilik Premis</label>
+                    <input class="form-control" type="text" value="Haji Zahid Bin Razak">
+                </div>
+            </div>
+            <div class="col-xl-12">
+                <div class="form-group">
+                    <label class="form-control-label">No. Telefon</label>
+                    <input class="form-control" type="text" value="0134203677">
+                </div>
+            </div>
+            <div class="col-xl-12">
+                <div class="form-group">
+                    <label class="form-control-label">No. Premis</label>
+                    <input class="form-control" type="text" value="137">
+                </div>
+            </div>
+            <div class="col-xl-12">
+                <button class="btn btn-success w-100 mt-3 mb-2" onclick="soft.showSwal('success-message')">Kemaskini</button>
+                <a href="/premis" class="btn btn-secondary w-100">Kembali</a>
+            </div>
         </div>
         <footer class="footer pt-3  ">
             <div class="container-fluid">
@@ -181,7 +220,7 @@
 <!-- Kanban scripts -->
 <script src="../../assets/js/plugins/dragula/dragula.min.js"></script>
 <script src="../../assets/js/plugins/jkanban/jkanban.js"></script>
-<script src="../../assets/js/plugins/multistep-form.js"></script>
+<script src="../../assets/js/plugins/sweetalert.min.js"></script>
 <script src="../../assets/js/plugins/choices.min.js"></script>
 
 @stop

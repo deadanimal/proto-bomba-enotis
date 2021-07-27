@@ -187,7 +187,6 @@
 <!-- Kanban scripts -->
 <script src="../../assets/js/plugins/dragula/dragula.min.js"></script>
 <script src="../../assets/js/plugins/jkanban/jkanban.js"></script>
-<script src="../../assets/js/plugins/multistep-form.js"></script>
 <script src="../../assets/js/plugins/choices.min.js"></script>
 
 @stop

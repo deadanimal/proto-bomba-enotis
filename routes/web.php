@@ -33,12 +33,28 @@ Route::get('/premis', function () {
     return view('pages.senaraipremis');
 });
 
-Route::get('/jadual', function () {
-    return view('pages.jadual');
+Route::get('/tambah-premis', function () {
+    return view('pages.tambahpremis');
 });
 
-Route::get('/panduan', function () {
-    return view('pages.panduan');
+Route::get('/maklumat-premis', function () {
+    return view('pages.maklumatpremis');
+});
+
+Route::get('/jadual-mingguan', function () {
+    return view('pages.jadualminggu');
+});
+
+Route::get('/jadual-bulanan', function () {
+    return view('pages.jadualbulan');
+});
+
+Route::get('/panduan-penetapan-masa', function () {
+    return view('pages.panduantepatmasa');
+});
+
+Route::get('/panduan-akta', function () {
+    return view('pages.panduanakta');
 });
 
 Route::get('/profil', function () {

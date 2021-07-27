@@ -1291,8 +1291,8 @@ var soft = {
     } else if (type == 'success-message') {
 
       Swal.fire(
-        'Good job!',
-        'You clicked the button!',
+        'Berjaya!',
+        'Maklumat disimpan!',
         'success'
       )
 
