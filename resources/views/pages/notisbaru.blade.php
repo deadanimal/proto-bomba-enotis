@@ -159,7 +159,8 @@
                     <!--form panels-->
                     <div class="row">
                         <div class="col-12 col-lg-8 m-auto">
-                            <form class="multisteps-form__form">
+                            <form class="multisteps-form__form" method="POST" action="/notis-baru">
+                                @csrf
                                 <!--single form panel-->
                                 <div class="card multisteps-form__panel p-3 border-radius-xl bg-white js-active" data-animation="FadeIn">
                                     <div class="row text-center">
@@ -173,9 +174,9 @@
                                                 <label>TARIKH PEMERIKSAAN</label>
                                                 <input class="multisteps-form__input form-control mb-3" type="date" value="2020-01-01" />
                                                 <label>NAMA PREMIS</label>
-                                                <input class="multisteps-form__input form-control mb-3" type="text" placeholder="Eg. Pipeline Network Sdn Bhd" />
+                                                <input class="multisteps-form__input form-control mb-3" name="nama" type="text" value="Pipeline Network Sdn Bhd" />
                                                 <label>ALAMAT PREMIS</label>
-                                                <textarea class="multisteps-form__input form-control mb-3" type="email" placeholder="Eg. C3A12, Metropolitan Square, Center Wing, Jalan PJU 8/1, 47820 Petaling Jaya, Selangor"></textarea>
+                                                <textarea class="multisteps-form__input form-control mb-3" name="alamat" placeholder="C3A12, Metropolitan Square, Center Wing, Jalan PJU 8/1, 47820 Petaling Jaya, Selangor"></textarea>
                                                 <label>NO. SIRI RUJUKAN</label>
                                                 <!-- <input class="multisteps-form__input form-control mb-3" type="text" placeholder="Eg. JPBM" /> -->
                                                 <div class="input-group">
@@ -257,7 +258,7 @@
                                                     <option value="5">SEKSYEN 2(E)</option>
                                                 </select>
                                                 <label>TEMPOH</label>
-                                                <select class="multisteps-form__input form-control mb-3">
+                                                <select class="multisteps-form__input form-control mb-3" name="tempoh_notis">
                                                     <option hidden selected>Sila Pilih</option>
                                                     <option value="1">30 HARI</option>
                                                     <option value="2">60 HARI</option>
@@ -293,7 +294,7 @@
                                         <div class="row">
                                             <div class="button-row d-flex mt-4 col-12">
                                                 <button class="btn bg-gradient-light mb-0 js-btn-prev" type="button" title="Prev">Prev</button>
-                                                <a class="btn bg-gradient-dark ms-auto mb-0" href="/papar-borang" type="button" title="Send">Send</a>
+                                                <a class="btn bg-gradient-dark ms-auto mb-0" href="/papar-borang" type="submit" title="Send">Send</a>
                                             </div>
                                         </div>
                                     </div>

@@ -16,6 +16,15 @@ class CreateNotisTable extends Migration
         Schema::create('notis', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+
+            $table->String('nama',50);
+            $table->String('alamat', 250);
+            // $table->String('jenis_kesalahan', 250);
+            // $table->String('lokasi_kesalahan',250);
+            $table->Integer('tempoh_notis');
+            // $table->String('gambar', 250);
+            // $table->String('status',50);
+
         });
     }
 

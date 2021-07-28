@@ -13,6 +13,26 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/main', function () {
+    return view('pages.main');
+});
+
+Route::get('/log-masuk', function () {
+    return view('pages.login');
+});
+
+Route::get('/daftar', function () {
+    return view('pages.register');
+});
+
+Route::get('/verify-tel', function () {
+    return view('pages.verifytel');
+});
+
+Route::get('/tac', function () {
+    return view('pages.tac');
+});
+
 Route::get('/dashboard', function () {
     return view('pages.dashboard');
 });
@@ -27,6 +47,14 @@ Route::get('/papar-borang', function () {
 
 Route::get('/status-notis', function () {
     return view('pages.statusnotis');
+});
+
+Route::get('/status-notis-edit', function () {
+    return view('pages.statusnotisborang');
+});
+
+Route::get('/status-notis-dihantar', function () {
+    return view('pages.statusnotishantar');
 });
 
 Route::get('/premis', function () {

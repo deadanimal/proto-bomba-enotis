@@ -14,7 +14,10 @@ class NotisController extends Controller
      */
     public function index()
     {
-        //
+        $notis = Notis::all();
+        return view('pages.notisbaru', [
+            'notisan' => $notis,
+        ]);
     }
 
     /**
@@ -35,7 +38,19 @@ class NotisController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $notis = new Notis;
+
+        $notis->nama = $request->nama;
+        $notis->alamat = $request->alamat;
+        // $notis->jenis_kesalahan = $request->jenis_kesalahan;
+        // $notis->lokasi_kesalahan = $request->lokasi_kesalahan;
+        $notis->tempoh_notis = $request->tempoh_notis;
+        // $notis->gambar = $request->gambar;
+        // $notis->status = $request->status;
+
+        $notis->save();
+
+        return redirect('/notis-baru');
     }
 
     /**
@@ -46,7 +61,9 @@ class NotisController extends Controller
      */
     public function show(Notis $notis)
     {
-        //
+        return view('notisan.show', [
+            'notisan' => $notis,
+        ]);
     }
 
     /**
@@ -69,7 +86,19 @@ class NotisController extends Controller
      */
     public function update(Request $request, Notis $notis)
     {
-        //
+        $notis = new Notis;
+
+        $notis->nama = $request->nama;
+        $notis->alamat = $request->alamat;
+        // $notis->jenis_kesalahan = $request->jenis_kesalahan;
+        // $notis->lokasi_kesalahan = $request->lokasi_kesalahan;
+        $notis->tempoh_notis = $request->tempoh_notis;
+        // $notis->gambar = $request->gambar;
+        // $notis->status = $request->status;
+
+        $notis->save();
+
+        return redirect('/notis-baru');
     }
 
     /**

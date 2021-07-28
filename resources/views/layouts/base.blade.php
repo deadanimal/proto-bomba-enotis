@@ -195,7 +195,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="/panduan">
+                    <a class="nav-link" href="/panduan-penetapan-masa">
                         <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
                             <i class="fas fa-user-circle me-sm-1 text-dark"></i>
                         </div>
@@ -222,7 +222,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="/tetapan" data-bs-toggle="modal" data-bs-target="#logkeluarModal">
+                    <a class="nav-link" data-bs-toggle="modal" data-bs-target="#logkeluarModal">
                         <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
                             <i class="fas fa-sign-out-alt me-sm-1 text-dark"></i>
                         </div>
@@ -241,7 +241,7 @@
                                     <p class="mb-0">Anda ingin log keluar?</p>
                                 </div>
                                 <div class="card-body pb-3">
-                                    <a href="/log-masuk" type="button" class="btn btn-success w-100">Ya</a>
+                                    <a href="/main" type="button" class="btn btn-success w-100">Ya</a>
                                     <button type="button" class="btn bg-gradient-secondary w-100" data-bs-dismiss="modal">Tidak</button>
                                 </div>
                             </div>

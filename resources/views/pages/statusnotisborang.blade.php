@@ -142,9 +142,33 @@
                 <img src="../../assets/img/padam-api.jpeg" alt="Gambar Bukti" style="height: 350px;">
             </div>
 
-            <a href="/dashboard" class="btn btn-success w-100">
-                SIMPAN
+            <a href="javascript:;" class="btn btn-warning w-100">
+                Kemaskini
             </a>
+
+            <button class="btn btn-success w-100" data-bs-toggle="modal" data-bs-target="#emailModal">
+                Hantar
+            </button>
+
+            <div class="modal fade" id="emailModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalemail" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+                    <div class="modal-content">
+                        <div class="modal-body p-0 text-center">
+                            <div class="card card-plain">
+                                <div class="card-header pb-0 text-left">
+                                    <h3 class="font-weight-bolder text-dark">Masukkan Emel</h3>
+                                    <p class="mb-0">Sila taip alamat email diikuti dgn (,) bagi menghantar emel kepada lebih dari satu penerima.</p>
+                                </div>
+                                <div class="card-body pb-3">
+                                    <textarea class="form-control mb-3" rows="3"></textarea>
+                                    <a href="/status-notis-dihantar" type="button" class="btn btn-success w-100">Hantar</a>
+                                    <button type="button" class="btn bg-gradient-secondary w-100" data-bs-dismiss="modal">Kembali</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <footer class="footer pt-3  ">
             <div class="container-fluid">
@@ -187,5 +211,6 @@
 <script src="../../assets/js/plugins/jkanban/jkanban.js"></script>
 <script src="../../assets/js/plugins/multistep-form.js"></script>
 <script src="../../assets/js/plugins/choices.min.js"></script>
+<script src="../../assets/js/plugins/sweetalert.min.js"></script>
 
 @stop

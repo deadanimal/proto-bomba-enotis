@@ -146,7 +146,98 @@
     <!-- End Navbar -->
     <div class="container-fluid py-4">
         <div class="row">
-            
+            <div class="col-xl-12">
+                <div class="row">
+                    <div class="col-6">
+                        <a href="/status-notis" class="btn btn-info w-100" type="button">Siap</a>
+                    </div>
+                    <div class="col-6">
+                        <a href="/status-notis-dihantar" class="btn btn-default w-100" type="button">Dihantar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-12 mb-3">
+                <div class="ms-md-auto pe-md-3 d-flex align-items-center">
+                    <div class="input-group">
+                        <span class="input-group-text text-body"><i class="fas fa-search" aria-hidden="true"></i></span>
+                        <input type="text" class="form-control" placeholder="Carian">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-12">
+                <div class="card">
+                    <div class="card-header pb-0">
+                        <h6>Jadual Pemeriksaan Mingguan</h6>
+                    </div>
+                    <div class="card-body p-3">
+                        <div class="timeline timeline-one-side" data-timeline-axis-style="dotted">
+                            <div class="timeline-block mb-3">
+                                <span class="timeline-step">
+                                    <i class="fas fa-circle text-success text-gradient"></i>
+                                </span>
+                                <div class="timeline-content">
+                                    <h5 class="text-dark font-weight-bold mb-0">Pipeline Network Sdn Bhd</h5>
+                                    <div class="row">
+                                        <div class="col">
+                                            <h6 class="text-dark text-sm mb-0">2 NOTIS BORANG A</h6>
+                                            <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">22 Ogos 2021</p>
+                                        </div>
+                                        <div class="col-auto">
+                                            <a href="/status-notis-edit" class="btn btn-icon btn-warning btn-sm" type="button">
+                                                <span class="btn-inner--icon">
+                                                    <i class="far fa-eye"> </i>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="timeline-block mb-3">
+                                <span class="timeline-step">
+                                    <i class="fas fa-circle text-danger text-gradient"></i>
+                                </span>
+                                <div class="timeline-content">
+                                    <h5 class="text-dark text-sm font-weight-bold mb-0">Akal Budi Resources</h5>
+                                    <div class="row">
+                                        <div class="col">
+                                            <h6 class="text-dark text-sm mb-0">1 NOTIS BORANG A</h6>
+                                            <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">23 Ogos 2021</p>
+                                        </div>
+                                        <div class="col-auto">
+                                            <a href="/status-notis-edit" class="btn btn-icon btn-warning btn-sm" type="button">
+                                                <span class="btn-inner--icon">
+                                                    <i class="far fa-eye"> </i>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="timeline-block mb-3">
+                                <span class="timeline-step">
+                                    <i class="fas fa-circle text-info text-gradient"></i>
+                                </span>
+                                <div class="timeline-content">
+                                    <h5 class="text-dark text-sm font-weight-bold mb-0">Coway (M) Sdn Bhd</h5>
+                                    <div class="row">
+                                        <div class="col">
+                                            <h6 class="text-dark text-sm mb-0">1 NOTIS BORANG A</h6>
+                                            <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">25 Ogos 2021</p>
+                                        </div>
+                                        <div class="col-auto">
+                                            <a href="/status-notis-edit" class="btn btn-icon btn-warning btn-sm" type="button">
+                                                <span class="btn-inner--icon">
+                                                    <i class="far fa-eye"> </i>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <footer class="footer pt-3  ">
             <div class="container-fluid">
