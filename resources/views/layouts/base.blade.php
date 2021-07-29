@@ -118,6 +118,7 @@
             <a class="navbar-brand m-0" href="https://demos.creative-tim.com/soft-ui-dashboard-pro/pages/dashboards/default.html" target="_blank">
                 <img src="../../assets/img/bomba-logo.png" class="navbar-brand-img h-100" alt="main_logo">
                 <span class="ms-1 font-weight-bold">eNotis</span>
+                <br>
                 <span class="ms-1 font-weight-bold">(Menghapus Bahaya Kebakaran)</span>
             </a>
         </div>
