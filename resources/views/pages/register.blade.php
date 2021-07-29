@@ -155,7 +155,7 @@
                     </div>
                     <div class="col-xl-12" >
                         <a href="/verify-tel" class="btn btn-success w-100 mt-3 mb-2">Daftar</a>
-                        <a href="/main" class="btn btn-secondary w-100">Kembali</a>
+                        <a href="/" class="btn btn-secondary w-100">Kembali</a>
                     </div>
                 </div>
                 <footer class="footer pt-3  ">

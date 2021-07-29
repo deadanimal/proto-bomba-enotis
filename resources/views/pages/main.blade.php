@@ -126,13 +126,13 @@
 
     <div class="imgbg text-center">
         <div class="logo-box">
-            <img class="logo mt-4" style="height: 10rem;" src="../../assets/img/bomba-logo.png">
+            <img class="logo mt-4 mb-3" style="height: 10rem;" src="../../assets/img/bomba-logo.png">
+            <h3 class="font-weight-bolder text-white">eNotis</h3>
+            <h3 class="font-weight-bolder text-white">(Menghapus Bahaya Kebakaran)</h3>
         </div>
 
         <div class="text-center" style="padding-top: 9rem;">
-            <!-- <button type="button" class="btn btn-default my-4 btn-block">
-                Sign in
-            </button> -->
+            
             <a href="/log-masuk" class="btn btn-warning w-70 mt-3 mb-2" type="button">Log Masuk</a>
         </div>
 

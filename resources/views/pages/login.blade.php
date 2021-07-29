@@ -143,7 +143,7 @@
                     </div>
                     <div class="col-xl-12" style="padding-top: 8rem;">
                         <a href="/dashboard" class="btn btn-success w-100 mt-3 mb-2">Log Masuk</a>
-                        <a href="/main" class="btn btn-secondary w-100">Kembali</a>
+                        <a href="/" class="btn btn-secondary w-100">Kembali</a>
                     </div>
                 </div>
                 <footer class="footer pt-3  ">

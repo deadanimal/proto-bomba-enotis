@@ -241,7 +241,7 @@
                                     <p class="mb-0">Anda ingin log keluar?</p>
                                 </div>
                                 <div class="card-body pb-3">
-                                    <a href="/main" type="button" class="btn btn-success w-100">Ya</a>
+                                    <a href="/" type="button" class="btn btn-success w-100">Ya</a>
                                     <button type="button" class="btn bg-gradient-secondary w-100" data-bs-dismiss="modal">Tidak</button>
                                 </div>
                             </div>
