@@ -48,7 +48,7 @@
         }
 
         .imgbg {
-            background-image: url('../../../assets/img/bgbomba3.jpeg');
+            background-image: url('../../../assets/img/image14.png');
             background-repeat: no-repeat;
             -webkit-background-size: cover;
             -moz-background-size: cover;
@@ -56,6 +56,13 @@
             background-size: cover;
             height: 100vh;
             overflow: auto;
+        }
+
+        .buttonplace {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            left: 10px;
         }
     </style>
     <script>
@@ -131,16 +138,15 @@
             <h3 class="font-weight-bolder text-white">(Menghapus Bahaya Kebakaran)</h3>
         </div>
 
-        <div class="text-center" style="padding-top: 9rem;">
-            
-            <a href="/log-masuk" class="btn btn-warning w-70 mt-3 mb-2" type="button">Log Masuk</a>
-        </div>
+        <div class="buttonplace">
+            <div class="text-center" style="padding-top: 9rem;">
 
-        <div>
-            <!-- <button type="button" class="btn btn-outline-default btn-block my-2">
-                Register
-            </button> -->
-            <a href="/daftar" class="btn btn-danger w-70 mt-3 mb-2" type="button">Daftar</a>
+                <a href="/log-masuk" class="btn btn-warning w-70 mt-3 mb-2" type="button">Log Masuk</a>
+            </div>
+
+            <div>
+                <a href="/daftar" class="btn btn-danger w-70 mt-3 mb-2" type="button">Daftar</a>
+            </div>
         </div>
     </div>
 

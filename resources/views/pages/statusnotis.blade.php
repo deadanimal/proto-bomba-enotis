@@ -167,7 +167,7 @@
             <div class="col-xl-12">
                 <div class="card">
                     <div class="card-header pb-0">
-                        <h6>Jadual Pemeriksaan Mingguan</h6>
+                        <h6>Jadual Pemeriksaan Semula</h6>
                     </div>
                     <div class="card-body p-3">
                         <div class="timeline timeline-one-side" data-timeline-axis-style="dotted">

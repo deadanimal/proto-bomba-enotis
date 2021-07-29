@@ -58,6 +58,13 @@
             height: 100vh;
             overflow: auto;
         }
+
+        .buttonplace {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+            right: 10px;
+        }
     </style>
     <script>
         (function(a, s, y, n, c, h, i, d, e) {
@@ -126,57 +133,29 @@
     <!-- End Google Tag Manager (noscript) -->
 
     <div class="imgbg text-center">
-        <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
-            <div class="container-fluid py-4">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="form-group">
-                            <label class="form-control-label text-white">Alamat Emel</label>
-                            <input class="form-control" type="text" placeholder="Tulis disini...">
-                        </div>
-                    </div>
-                    <div class="col-xl-12">
-                        <div class="form-group">
-                            <label class="form-control-label text-white">Kata Laluan</label>
-                            <input class="form-control" type="text" placeholder="Tulis disini...">
-                        </div>
-                    </div>
-                    <div class="col-xl-12" style="padding-top: 8rem;">
-                        <a href="/dashboard" class="btn btn-success w-100 mt-3 mb-2">Log Masuk</a>
-                        <a href="/" class="btn btn-secondary w-100">Kembali</a>
-                    </div>
+        <div class="row">
+            <div class="col-xl-12 mt-4">
+                <div class="form-group">
+                    <label class="form-control-label text-white">Alamat Emel</label>
+                    <input class="form-control w-100" type="text" placeholder="Tulis disini...">
                 </div>
-                <footer class="footer pt-3  ">
-                    <div class="container-fluid">
-                        <div class="row align-items-center justify-content-lg-between">
-                            <div class="col-lg-6 mb-lg-0 mb-4">
-                                <div class="copyright text-center text-sm text-muted text-lg-start">
-                                    © <script>
-                                        document.write(new Date().getFullYear())
-                                    </script>
-                                </div>
-                            </div>
-                            <!-- <div class="col-lg-6">
-                        <ul class="nav nav-footer justify-content-center justify-content-lg-end">
-                            <li class="nav-item">
-                                <a href="https://www.creative-tim.com" class="nav-link text-muted" target="_blank">Creative Tim</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="https://www.creative-tim.com/presentation" class="nav-link text-muted" target="_blank">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="https://www.creative-tim.com/blog" class="nav-link text-muted" target="_blank">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="https://www.creative-tim.com/license" class="nav-link pe-0 text-muted" target="_blank">License</a>
-                            </li>
-                        </ul>
-                    </div> -->
-                        </div>
-                    </div>
-                </footer>
             </div>
-        </main>
+            <div class="col-xl-12">
+                <div class="form-group">
+                    <label class="form-control-label text-white">Kata Laluan</label>
+                    <input class="form-control w-100" type="text" placeholder="Tulis disini...">
+                </div>
+            </div>
+            <div class="buttonplace col-xl-12">
+                <a href="/dashboard" class="btn btn-success w-80 mt-3 mb-2">Log Masuk</a>
+                <a href="/" class="btn btn-secondary w-80" type="button">Kembali</a>
+            </div>
+        </div>
+        <!-- <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
+            <div class="container-fluid py-4">
+
+            </div>
+        </main> -->
     </div>
 
     <!--   Core JS Files   -->
