@@ -213,30 +213,6 @@
                             </div>
                         </a>
                     </li>
-                    <li class="mb-2">
-                        <a href="/maklumat-premis">
-                            <div class="d-flex px-2 py-1">
-                                <div>
-                                    <img src="../../../assets/img/default.png" class="avatar avatar-sm me-3" alt="avatar image">
-                                </div>
-                                <div class="d-flex flex-column justify-content-center">
-                                    <h6 class="mb-0 text-sm">John Michael</h6>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="mb-2">
-                        <a href="/maklumat-premis">
-                            <div class="d-flex px-2 py-1">
-                                <div>
-                                    <img src="../../../assets/img/default.png" class="avatar avatar-sm me-3" alt="avatar image">
-                                </div>
-                                <div class="d-flex flex-column justify-content-center">
-                                    <h6 class="mb-0 text-sm">John Michael</h6>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
                 </ul>
             </div>
         </div>
