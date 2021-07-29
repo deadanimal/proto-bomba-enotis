@@ -159,11 +159,11 @@
                     <span class="btn-inner--icon"><i class="ni ni-badge"></i></span>
                     <span class="btn-inner--text">Senarai Premis</span>
                 </a>
-                <a href="/jadual" class="btn btn-icon btn-3 btn-outline-secondary w-100">
+                <a href="/jadual-mingguan" class="btn btn-icon btn-3 btn-outline-secondary w-100">
                     <span class="btn-inner--icon"><i class="ni ni-calendar-grid-58"></i></span>
                     <span class="btn-inner--text">Jadual Pemeriksaan Semula</span>
                 </a>
-                <a href="/panduan" class="btn btn-icon btn-3 btn-outline-secondary w-100">
+                <a href="/panduan-penetapan-masa" class="btn btn-icon btn-3 btn-outline-secondary w-100">
                     <span class="btn-inner--icon"><i class="ni ni-circle-08"></i></span>
                     <span class="btn-inner--text">Panduan Pengguna</span>
                 </a>
